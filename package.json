@@ -1,0 +1,19 @@
+{
+  "name": "node-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ariane92/node-setup.git",
+  "author": "Ariane Mateus <ariane.ccomp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "ts-node-dev --respawn --ignore-watch node_modules --no-notify src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
